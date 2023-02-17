@@ -53,7 +53,7 @@ $q = mysql_query('SELECT * FROM магазины WHERE...', $магазины_co
 ```
 Для каждой таблицы или группы таблиц будет отдельное соединение
 
-![alt tag](https://github.com/MarcinhoLeo/sdb-homework-12-07/blob/main/sdb-homework-12-07/images/10.png)
+![alt tag](https://github.com/MarcinhoLeo/sdb-homework-12-07/blob/main/images/10.png)
 
 В отличие от репликации, мы используем разные соединения для любых операций, но с определенными таблицами.
 
@@ -86,7 +86,7 @@ $q = mysql_query('SELECT * FROM photos WHREE user_id = ' . intval($user_id), $co
 
 картинка честно взятая из лекции ;)
 
-![alt tag](https://github.com/MarcinhoLeo/sdb-homework-12-07/blob/main/sdb-homework-12-07/images/11.png)
+![alt tag](https://github.com/MarcinhoLeo/sdb-homework-12-07/blob/main/images/11.png)
 
 
 источник - https://highload.today/sharding-i-replikatsiya/
